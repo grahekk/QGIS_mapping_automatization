@@ -64,14 +64,4 @@ for i, f in enumerate(lista_imena_PP):
     tumac_3 = my_table[8]
     tumac_3.setPicturePath(str(tumac_path + "\\Tumac_" + f + "_3.jpg"))
 
-    
-
-print("gotof")
-
-
-    
-
-
-
-    
-    
+print("done")
