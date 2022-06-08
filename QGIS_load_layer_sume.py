@@ -13,6 +13,7 @@ if not vlayer.isValid():
     print("Layer failed to load!")
 else:
     QgsProject.instance().addMapLayer(vlayer)
+vlayer.loadNamedStyle('\\\\server.intranet.dvokut-ecro.hr\\Pomoc\\24 GIS\\SUME\\SUME-DRZAVNO\\odsjeci-drzavne.qml')
 
 # lovista
 vlayer = QgsVectorLayer(path_lovista, "Lovista", "ogr")
@@ -20,6 +21,8 @@ if not vlayer.isValid():
     print("Layer failed to load!")
 else:
     QgsProject.instance().addMapLayer(vlayer)
+vlayer.loadNamedStyle('\\\\server.intranet.dvokut-ecro.hr\\Pomoc\\24 GIS\\LOV\\lovista.qml')
+
 # GJ
 vlayer = QgsVectorLayer(path_drz_gj, "GJ_drz", "ogr")
 if not vlayer.isValid():
@@ -47,8 +50,9 @@ params = {
 uri = 'http://gis.hrsume.hr/privsume/wfs?layers=priv_gj'
 uri2 = 'http://gis.hrsume.hr/privsume/wfs?layers=priv_gj' + urllib.parse.unquote(urllib.parse.urlencode(params))
 
-layer = QgsVectorLayer(uri2, "WFS_Layer", "WFS")
+layer = QgsVectorLayer(uri2, "WFS_Layer - Odsjeci privatnih suma", "WFS")
 if not layer.isValid():
     print ("Layer failed to load!")
 else:
     QgsProject.instance().addMapLayer(layer)
+layer.loadNamedStyle('\\\\server.intranet.dvokut-ecro.hr\\Pomoc\\24 GIS\\SUME\\SUME-PRIVATNO\\odsjeci_privatne_2017.qml')
