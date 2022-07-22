@@ -6,13 +6,12 @@ from qgis.core import QgsProcessingMultiStepFeedback
 import processing
 
 path_osnovni = "\\\\server.intranet.dvokut-ecro.hr\\Pomoc\\24 GIS\\PRIRODA"
-path_POVS = path_osnovni + "\\01_EM\\POP.shp"
-path_POP = path_osnovni + "\\01_EM\\POVS.shp"
+path_POVS = path_osnovni + "\\01_EM\\POVS.shp"
+path_POP = path_osnovni + "\\01_EM\\POP.shp"
 path_ks = path_osnovni + "\\02_KS\\A - Poligoni\\Kopno-sve"
 path_ks_2004 = path_ks + "\\Karta stanista RH 2004.shp"
 path_ks_2016 = "\\\\server.intranet.dvokut-ecro.hr\\Pomoc\\24 GIS\\PRIRODA\\02_KS\\A - Poligoni\\Kopno-sve\\KS_POLIGONI_2016\\SVE\\Poligoni_fix.shp"
-
-path_ZP_poligoni = path_osnovni + "\\03_ZP\\zasticena_podrucja.shp"
+path_ZPP_poligoni = path_osnovni + "\\03_ZP\\zasticena_podrucja.shp"
 path_ZP_tocke = path_osnovni + "\\03_ZP\\NOVO\\zasticena_podrucja_tocke.shp"
 path_MAB = path_osnovni + "\\04_MAB\\MAB.shp"
 
@@ -21,13 +20,9 @@ zahvat = iface.activeLayer()
 # EM Natura 2000
 #POVS
 vlayer = QgsVectorLayer(path_POVS, "Područje očuvanja značajno za vrste i stanišne tipove (POVS)", "ogr")
-if not vlayer.isValid():
-    print("Layer failed to load!")
-else:
-    QgsProject.instance().addMapLayer(vlayer)
+QgsProject.instance().addMapLayer(vlayer)
 
 #POP
-# Zasticena podrucja
 vlayer = QgsVectorLayer(path_POP, "Područje očuvanja značajno za ptice (POP)", "ogr")
 QgsProject.instance().addMapLayer(vlayer)
 
@@ -54,6 +49,7 @@ alg_params = {
     'OUTPUT': QgsProcessing.TEMPORARY_OUTPUT
         }
 bafer = processing.run('native:buffer', alg_params)['OUTPUT']
+QgsProject.instance().addMapLayer(bafer)
 
 # Clip
 alg_params = {
@@ -66,8 +62,8 @@ clip.loadNamedStyle('\\\\server.intranet.dvokut-ecro.hr\\Pomoc\\24 GIS\\PRIRODA\
 clip.setName('Clip-buffer_KS')
 QgsProject.instance().addMapLayer(clip)
 
-# Zasticena podrucja poligoni
-vlayer = QgsVectorLayer(path_ZP_poligoni, "zasticena podrucja poligoni", "ogr")
+# Zasticena podrucja prirode poligoni
+vlayer = QgsVectorLayer(path_ZPP_poligoni, "zasticena podrucja prirode poligoni", "ogr")
 QgsProject.instance().addMapLayer(vlayer)
 
 # Zasticena podrucja tocke
