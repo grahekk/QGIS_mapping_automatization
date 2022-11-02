@@ -1,17 +1,25 @@
 from PyQt5.QtCore import QVariant
 
+map_year = "2016"
+export_as_excel_shp = True
+
 zahvat = iface.activeLayer()
 path_ks_2016 = "\\\\server.intranet.dvokut-ecro.hr\\Pomoc\\24 GIS\\PRIRODA\\02_KS\\A - Poligoni\\Kopno-sve\\KS_POLIGONI_2016\\SVE\\Poligoni_fix.shp"
 path_ks_2004 = "\\\\server.intranet.dvokut-ecro.hr\\Pomoc\\24 GIS\\PRIRODA\\02_KS\\A - Poligoni\\Kopno-sve\\KS_2004_fix.shp"
 
+if map_year == "2016":
+    path = path_ks_2016
+if map_year == "2004":
+    path = path_ks_2004
+
 # KS buffer clip
-vlayer = QgsVectorLayer(path_ks_2016, "Kopnena stanista 2016", "ogr")
+vlayer = QgsVectorLayer(path, "Kopnena stanista ", "ogr")
 QgsProject.instance().addMapLayer(vlayer)
 
 # Buffer
 alg_params = {
     'DISSOLVE': True,
-    'DISTANCE': 50,
+    'DISTANCE': 10,
     'END_CAP_STYLE': 0,
     'INPUT': zahvat,
     'JOIN_STYLE': 0,
@@ -30,7 +38,7 @@ alg_params = {
         }
 clip = processing.run('native:clip', alg_params)['OUTPUT']
 clip.loadNamedStyle('\\\\server.intranet.dvokut-ecro.hr\\Pomoc\\24 GIS\\PRIRODA\\02_KS\\A - Poligoni\\Kopno-sve\\KS_POLIGONI_2016\\QGis_symbology\\Poligoni_sluzbena.qml')
-clip.setName('Clip-buffer_KS')
+clip.setName('Karta staništa')
 QgsProject.instance().addMapLayer(clip)
 
 #adding area field
@@ -50,12 +58,13 @@ for feature in clip.getFeatures():
 path = QgsProject.instance().readPath("./")
 path = path + '/' + clip.name()
 
-#export as excel table
-QgsVectorFileWriter.writeAsVectorFormat(clip, path + '.xlsx', "utf-8", driverName='xlsx')
-#export as shp
-QgsVectorFileWriter.writeAsVectorFormat(clip, path + '.shp', "utf-8", driverName='shp')
+if export_as_excel_shp == True:
+    #export as excel table
+    QgsVectorFileWriter.writeAsVectorFormat(clip, path + '.xlsx', "utf-8", driverName='xlsx')
+    #export as shp
+    QgsVectorFileWriter.writeAsVectorFormat(clip, path, "utf-8", driverName='shp')
 
 QgsProject.instance().removeMapLayer(vlayer)
 QgsProject.instance().removeMapLayer(bafer)
 
-print("done")
+print("buffer-clipped!")

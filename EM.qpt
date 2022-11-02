@@ -1,0 +1,564 @@
+<Layout units="mm" name="EM" printResolution="300" worldFileMap="{08a71830-378f-4b77-b1a3-0cff0966527b}">
+ <Snapper tolerance="5" snapToGuides="1" snapToItems="1" snapToGrid="0"/>
+ <Grid resolution="10" offsetY="0" resUnits="mm" offsetX="0" offsetUnits="mm"/>
+ <PageCollection>
+  <symbol name="" force_rhr="0" clip_to_extent="1" alpha="1" type="fill">
+   <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+    <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+    <prop k="color" v="255,255,255,255"/>
+    <prop k="joinstyle" v="miter"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="outline_color" v="35,35,35,255"/>
+    <prop k="outline_style" v="no"/>
+    <prop k="outline_width" v="0.26"/>
+    <prop k="outline_width_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+    <data_defined_properties>
+     <Option type="Map">
+      <Option name="name" value="" type="QString"/>
+      <Option name="properties"/>
+      <Option name="type" value="collection" type="QString"/>
+     </Option>
+    </data_defined_properties>
+   </layer>
+  </symbol>
+  <LayoutItem zValue="0" frame="false" id="" referencePoint="0" positionLock="false" frameJoinStyle="miter" excludeFromExports="0" templateUuid="{7ab8b719-4271-42cf-b4e0-fd8ee38545e6}" visibility="1" opacity="1" type="65638" uuid="{7ab8b719-4271-42cf-b4e0-fd8ee38545e6}" groupUuid="" blendMode="0" position="0,0,mm" background="true" itemRotation="0" size="200,200,mm" positionOnPage="0,0,mm" outlineWidthM="0.3,mm">
+   <FrameColor red="0" blue="0" alpha="255" green="0"/>
+   <BackgroundColor red="255" blue="255" alpha="255" green="255"/>
+   <LayoutObject>
+    <dataDefinedProperties>
+     <Option type="Map">
+      <Option name="name" value="" type="QString"/>
+      <Option name="properties"/>
+      <Option name="type" value="collection" type="QString"/>
+     </Option>
+    </dataDefinedProperties>
+    <customproperties/>
+   </LayoutObject>
+   <symbol name="" force_rhr="0" clip_to_extent="1" alpha="1" type="fill">
+    <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+     <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="35,35,35,255"/>
+     <prop k="outline_style" v="no"/>
+     <prop k="outline_width" v="0.26"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+     <data_defined_properties>
+      <Option type="Map">
+       <Option name="name" value="" type="QString"/>
+       <Option name="properties"/>
+       <Option name="type" value="collection" type="QString"/>
+      </Option>
+     </data_defined_properties>
+    </layer>
+   </symbol>
+  </LayoutItem>
+  <GuideCollection visible="1"/>
+ </PageCollection>
+ <LayoutItem size="115.9,31.3,mm" itemRotation="0" title="Tumač oznaka" splitLayer="0" outlineWidthM="0.3,mm" groupUuid="" equalColumnWidth="0" positionOnPage="0,154.353,mm" wmsLegendWidth="50" frameJoinStyle="miter" positionLock="false" rasterBorderWidth="0" columnSpace="2" minSymbolSize="0" opacity="1" legendFilterByMap="1" rasterBorder="1" position="0,154.353,mm" wrapChar="" fontColor="#000000" templateUuid="{a54ddc8a-a9de-4024-bae6-18e2c3ac0708}" type="65642" symbolHeight="4" lineSpacing="1" visibility="1" rasterBorderColor="0,0,0,255" zValue="4" background="true" titleAlignment="4" wmsLegendHeight="25" map_uuid="{b0fb5c8c-8cb0-41c1-8a77-dc3fc547098b}" frame="false" excludeFromExports="0" maxSymbolSize="0" resizeToContents="1" blendMode="0" referencePoint="0" boxSpace="2" symbolAlignment="1" uuid="{a54ddc8a-a9de-4024-bae6-18e2c3ac0708}" columnCount="1" legendFilterByAtlas="0" symbolWidth="7" id="">
+  <FrameColor red="0" blue="0" alpha="255" green="0"/>
+  <BackgroundColor red="255" blue="255" alpha="127" green="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" value="" type="QString"/>
+     <Option name="properties"/>
+     <Option name="type" value="collection" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <styles>
+   <style marginBottom="3.5" name="title" alignment="1">
+    <styleFont description="Calibri,16,-1,5,50,0,0,0,0,0,Regular" style="Regular"/>
+   </style>
+   <style marginTop="3" name="group" alignment="1">
+    <styleFont description="Calibri,14,-1,5,50,0,0,0,0,0,Regular" style="Regular"/>
+   </style>
+   <style marginTop="3" name="subgroup" alignment="1">
+    <styleFont description="Calibri,12,-1,5,50,0,0,0,0,0,Regular" style="Regular"/>
+   </style>
+   <style marginTop="2.5" name="symbol" alignment="1">
+    <styleFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+   </style>
+   <style marginTop="2" name="symbolLabel" alignment="1" marginLeft="2">
+    <styleFont description="Calibri,12,-1,5,50,0,0,0,0,0,Regular" style="Regular"/>
+   </style>
+  </styles>
+  <layer-tree-group>
+   <customproperties/>
+   <layer-tree-layer legend_split_behavior="0" name="Gospođica" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/EZO_Gospodjica/GIS/Perspektivno_podrucje.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="Gospodjica_57220a9c_d243_41a4_88fb_ea6c414abaa8">
+    <customproperties>
+     <property value="Gospođica" key="cached_name"/>
+    </customproperties>
+   </layer-tree-layer>
+   <layer-tree-group name="Podaci MINGOR_Zutica" expanded="1" checked="Qt::Unchecked">
+    <customproperties/>
+    <layer-tree-group name="EM zonacija" expanded="1" checked="Qt::Checked">
+     <customproperties/>
+     <layer-tree-layer legend_split_behavior="0" name="Zutica_zonacija_Umbra_krameri" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/HR2000465_Zutica/Zutica_zonacija_Umbra_krameri.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="Zutica_zonacija_Umbra_krameri_d54e5e41_f291_49d4_819a_890161abaf5a">
+      <customproperties>
+       <property value="Zutica_zonacija_Umbra_krameri" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="Zutica_zonacija_Triturus_carnifex_x_dobrogicus" expanded="1" checked="Qt::Unchecked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/HR2000465_Zutica/Zutica_zonacija_Triturus_carnifex_x_dobrogicus.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="Zutica_zonacija_Triturus_carnifex_x_dobrogicus_17822781_670f_45f9_9162_1226dac6f6b4">
+      <customproperties>
+       <property value="Zutica_zonacija_Triturus_carnifex_x_dobrogicus" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="Zutica_zonacija_Misgurnus_fossilis" expanded="1" checked="Qt::Unchecked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/HR2000465_Zutica/Zutica_zonacija_Misgurnus_fossilis.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="Zutica_zonacija_Misgurnus_fossilis_00ed336f_8663_4439_8120_3c4cc351eb0d">
+      <customproperties>
+       <property value="Zutica_zonacija_Misgurnus_fossilis" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="Zutica_zonacija_Lutra_lutra" expanded="1" checked="Qt::Unchecked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/HR2000465_Zutica/Zutica_zonacija_Lutra_lutra.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="Zutica_zonacija_Lutra_lutra_07c09699_5a92_4b37_9555_db74e214a237">
+      <customproperties>
+       <property value="Zutica_zonacija_Lutra_lutra" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="Zutica_zonacija_Emys_orbicularis" expanded="1" checked="Qt::Unchecked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/HR2000465_Zutica/Zutica_zonacija_Emys_orbicularis.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="Zutica_zonacija_Emys_orbicularis_62618859_85ec_4efd_af3a_10a74b3c0b36">
+      <customproperties>
+       <property value="Zutica_zonacija_Emys_orbicularis" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="Zutica_zonacija_Castor_fiber" expanded="1" checked="Qt::Unchecked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/HR2000465_Zutica/Zutica_zonacija_Castor_fiber.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="Zutica_zonacija_Castor_fiber_ea3aa3db_13cd_424f_9787_55ae70e799f2">
+      <customproperties>
+       <property value="Zutica_zonacija_Castor_fiber" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="Zutica_zonacija_Bombina_bombina" expanded="1" checked="Qt::Unchecked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/HR2000465_Zutica/Zutica_zonacija_Bombina_bombina.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="Zutica_zonacija_Bombina_bombina_289dedd1_7b39_44f5_bc6e_ca36b1194c8d">
+      <customproperties>
+       <property value="Zutica_zonacija_Bombina_bombina" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="Zutica_zonacija_9160" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/HR2000465_Zutica/Zutica_zonacija_9160.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="Zutica_zonacija_9160_638230eb_bc64_4a31_97dc_ea7589500cb0">
+      <customproperties>
+       <property value="Zutica_zonacija_9160" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="Zutica_zonacija_3150" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/HR2000465_Zutica/Zutica_zonacija_3150.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="Zutica_zonacija_3150_021542cc_dc3e_4ff9_9b1a_35c85d3e2c14">
+      <customproperties>
+       <property value="Zutica_zonacija_3150" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="Zutica_zonacija_91F0" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/HR2000465_Zutica/Zutica_zonacija_91F0.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="Zutica_zonacija_91F0_bafbe4ea_60b8_4ee7_be81_80ac6d493aca">
+      <customproperties>
+       <property value="Zutica_zonacija_91F0" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="Zutica_zonacija_91E0" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/HR2000465_Zutica/Zutica_zonacija_91E0.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="Zutica_zonacija_91E0_ba82499a_dd80_4b51_a3cb_f76e14ba69d4">
+      <customproperties>
+       <property value="Zutica_zonacija_91E0" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-group name="Flora" expanded="1" checked="Qt::Checked">
+     <customproperties/>
+     <layer-tree-layer legend_split_behavior="0" name="flora_herbar" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/flora/flora_herbar.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="flora_herbar_bf55b972_508f_4762_aa39_b8c6e3f46fdb">
+      <customproperties>
+       <property value="flora_herbar" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="flora_foto" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/flora/flora_foto.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="flora_foto_dc1c7073_4f18_41e6_9608_53e7cafea504">
+      <customproperties>
+       <property value="flora_foto" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="flora_opazanja" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/flora/flora_opazanja.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="flora_opazanja_d7642ab5_eb3b_491f_9f0d_f4397edea575">
+      <customproperties>
+       <property value="flora_opazanja" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="flora_literatura" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/flora/flora_literatura.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="flora_literatura_e66919ba_acfa_4ab7_b97f_3e90b93bc7c5">
+      <customproperties>
+       <property value="flora_literatura" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-group name="Fauna" expanded="1" checked="Qt::Checked">
+     <customproperties/>
+     <layer-tree-layer legend_split_behavior="0" name="herpetofauna" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/fauna/herpetofauna.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="herpetofauna_2cad4802_22c6_4007_8395_a94379c5df3d">
+      <customproperties>
+       <property value="herpetofauna" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="dojave_saproksilci" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/fauna/dojave_saproksilci.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="dojave_saproksilci_c66d1a28_453a_426c_be00_b3531e90af51">
+      <customproperties>
+       <property value="dojave_saproksilci" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="beskraljesnjaci_nulti" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/fauna/beskraljesnjaci_nulti.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="beskraljesnjaci_nulti_91f3dc69_a164_46d5_9e69_2c6cb38ca08d">
+      <customproperties>
+       <property value="beskraljesnjaci_nulti" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="beskraljesnjaci" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/fauna/beskraljesnjaci.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="beskraljesnjaci_27c8f1dc_c2eb_498d_8f13_1509bb9a8814">
+      <customproperties>
+       <property value="beskraljesnjaci" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="sl_ribe" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/fauna/sl_ribe.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="sl_ribe_fa835d9c_c39b_4930_88da_ef72db5f8905">
+      <customproperties>
+       <property value="sl_ribe" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="sisavci" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/fauna/sisavci.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="sisavci_ad813c99_4e27_4a00_b55e_bd1d43850f31">
+      <customproperties>
+       <property value="sisavci" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="ptice" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/fauna/ptice.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="ptice_965c867c_954f_47cf_96ed_60088f1bcd82">
+      <customproperties>
+       <property value="ptice" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="NIP_sismisi" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/fauna/NIP_sismisi.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="NIP_sismisi_dfe4edbf_b227_4de7_bed1_06b1e98db56a">
+      <customproperties>
+       <property value="NIP_sismisi" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="NIP_ptice" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/fauna/NIP_ptice.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="NIP_ptice_51e2deea_5d93_42dc_bbed_ceb80e1b84af">
+      <customproperties>
+       <property value="NIP_ptice" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="IAS_sl_ribe" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/fauna/IAS_sl_ribe.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="IAS_sl_ribe_d5648ae5_3d5e_416f_9474_71e47c42acbd">
+      <customproperties>
+       <property value="IAS_sl_ribe" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="IAS_nutrija" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/fauna/IAS_nutrija.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="IAS_nutrija_a2434642_4952_4cbf_b1de_65dbcd8b4d46">
+      <customproperties>
+       <property value="IAS_nutrija" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="IAS_makrozoobentos" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/fauna/IAS_makrozoobentos.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="IAS_makrozoobentos_351b5eb8_214c_4019_9c81_97cd88773022">
+      <customproperties>
+       <property value="IAS_makrozoobentos" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="IAS_bizamtski_stakor" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/fauna/IAS_bizamtski_stakor.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="IAS_bizamtski_stakor_1f3f42f6_a1c4_432f_bb63_69411435a81e">
+      <customproperties>
+       <property value="IAS_bizamtski_stakor" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+     <layer-tree-layer legend_split_behavior="0" name="herpetofauna_nulti" expanded="1" checked="Qt::Checked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/fauna/herpetofauna_nulti.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="herpetofauna_nulti_8d1203ba_502a_4e74_b52b_f55a493722f6">
+      <customproperties>
+       <property value="herpetofauna_nulti" key="cached_name"/>
+      </customproperties>
+     </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-layer legend_split_behavior="0" name="HR2000465_Zutica" expanded="1" checked="Qt::Unchecked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/HR2000465_Zutica.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="HR2000465_Zutica_c27e76f2_a6ed_4073_a97b_3b3b5e18df3e">
+     <customproperties>
+      <property value="HR2000465_Zutica" key="cached_name"/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer legend_split_behavior="0" name="buffer_10km" expanded="1" checked="Qt::Unchecked" source="S:/1_PUOP/2_PUO/OPP_Aspect_Sava_Jug3D/2_Radno/priroda/Ministarstvo - zahtjev za info o Zutici/DVOKUT_SA-06_Zutica/buffer_10km.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="buffer_10km_0732e572_1974_4d35_a5c3_fb714ac080a7">
+     <customproperties>
+      <property value="buffer_10km" key="cached_name"/>
+     </customproperties>
+    </layer-tree-layer>
+   </layer-tree-group>
+   <layer-tree-group name="EM" expanded="1" checked="Qt::Checked">
+    <customproperties>
+     <property value="hidden" key="legend/title-style"/>
+    </customproperties>
+    <layer-tree-layer legend_split_behavior="0" name="Područje očuvanja značajno za ptice (POP)" expanded="1" checked="Qt::Checked" source=" pagingEnabled='true' preferCoordinatesForWfsT11='false' restrictToRequestBBOX='1' srsname='EPSG:3765' typename='dzzpnpis:direktiva_o_pticama_natura2000_hr_2019_' url='http://services.bioportal.hr/wms' version='auto'" providerKey="WFS" legend_exp="" patch_size="-1,-1" id="Podru_je_o_uvanja_zna_ajno_za_ptice__POP__951c2b4a_a829_45e0_bf5d_280abba6db8f">
+     <customproperties>
+      <property value="Područje očuvanja značajno za ptice (POP)" key="cached_name"/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer legend_split_behavior="0" name="Područje očuvanja značajno za vrste i stanišne tipove (POVS)" expanded="1" checked="Qt::Checked" source=" pagingEnabled='true' preferCoordinatesForWfsT11='false' restrictToRequestBBOX='1' srsname='EPSG:3765' typename='dzzpnpis:direktiva_o_stanistima_natura2000_hr_2019_' url='http://services.bioportal.hr/wms' version='auto'" providerKey="WFS" legend_exp="" patch_size="-1,-1" id="Podru_je_o_uvanja_zna_ajno_za_vrste_i_stani_ne_tipove__POVS__4c5d1375_71a7_4a57_a406_333a19378c9b">
+     <customproperties>
+      <property value="Područje očuvanja značajno za vrste i stanišne tipove (POVS)" key="cached_name"/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer legend_split_behavior="0" name="zasticena podrucja prirode poligoni" expanded="0" checked="Qt::Unchecked" source="\\server.intranet.dvokut-ecro.hr\Pomoc\24 GIS\PRIRODA\03_ZP\zasticena_podrucja.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="zasticena_podrucja_prirode_poligoni_95c1b15e_f570_483b_bf4b_bc66c502970c">
+     <customproperties>
+      <property value="zasticena podrucja prirode poligoni" key="cached_name"/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer legend_split_behavior="0" name="Kopnena stanista 2016" expanded="0" checked="Qt::Unchecked" source="\\server.intranet.dvokut-ecro.hr\Pomoc\24 GIS\PRIRODA\02_KS\A - Poligoni\Kopno-sve\KS_POLIGONI_2016\SVE\Poligoni_fix.shp" providerKey="ogr" legend_exp="" patch_size="-1,-1" id="Kopnena_stanista_2016_e84b2b7b_ee63_4be1_bf58_487ee7adb6aa">
+     <customproperties>
+      <property value="Kopnena stanista 2016" key="cached_name"/>
+     </customproperties>
+    </layer-tree-layer>
+   </layer-tree-group>
+   <custom-order enabled="0"/>
+  </layer-tree-group>
+ </LayoutItem>
+ <LayoutItem zValue="3" frame="false" id="North Arrow" northOffset="0" referencePoint="0" positionLock="false" resizeMode="0" frameJoinStyle="miter" excludeFromExports="0" pictureWidth="7.56988" svgBorderWidth="0.2" svgFillColor="255,255,255,255" mode="1" templateUuid="{b95bedf4-4237-4801-a9f8-c6a6ead269eb}" visibility="1" opacity="1" type="65640" uuid="{b95bedf4-4237-4801-a9f8-c6a6ead269eb}" groupUuid="" blendMode="0" position="189.163,-1.28938e-16,mm" background="false" itemRotation="0" size="10.837,10.8795,mm" pictureRotation="0" anchorPoint="0" mapUuid="{b0fb5c8c-8cb0-41c1-8a77-dc3fc547098b}" file="C:/Users/ngersak/Documents/sjever.png" pictureHeight="10.8795" northMode="0" positionOnPage="189.163,-1.28938e-16,mm" outlineWidthM="0.3,mm" svgBorderColor="0,0,0,255">
+  <FrameColor red="0" blue="0" alpha="255" green="0"/>
+  <BackgroundColor red="255" blue="255" alpha="255" green="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" value="" type="QString"/>
+     <Option name="properties"/>
+     <Option name="type" value="collection" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+ </LayoutItem>
+ <LayoutItem size="79.4908,14.3466,mm" lineCapStyle="square" itemRotation="0" labelHorizontalPlacement="0" boxContentSpace="1" maxBarWidth="150" outlineWidthM="0.3,mm" segmentSizeMode="0" groupUuid="" mapUuid="{b0fb5c8c-8cb0-41c1-8a77-dc3fc547098b}" alignment="0" positionOnPage="0,185.653,mm" labelBarSpace="3" frameJoinStyle="miter" positionLock="false" opacity="1" position="0,185.653,mm" style="Single Box" numSegments="5" templateUuid="{0b33d740-c89a-4421-bbd0-6cdf4cf825d6}" numMapUnitsPerScaleBarUnit="1" type="65646" height="3" segmentMillimeters="13.7041" outlineWidth="0.3" labelVerticalPlacement="0" unitType="km" visibility="1" zValue="2" numSubdivisions="1" unitLabel="km" background="true" frame="false" excludeFromExports="0" lineJoinStyle="miter" numUnitsPerSegment="1" blendMode="0" referencePoint="0" minBarWidth="50" numSegmentsLeft="0" uuid="{0b33d740-c89a-4421-bbd0-6cdf4cf825d6}" subdivisionsHeight="1.5" id="">
+  <FrameColor red="0" blue="0" alpha="255" green="0"/>
+  <BackgroundColor red="255" blue="255" alpha="128" green="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" value="" type="QString"/>
+     <Option name="properties"/>
+     <Option name="type" value="collection" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <text-style namedStyle="Regular" fontSize="12" fontSizeUnit="Point" blendMode="0" allowHtml="0" textOrientation="horizontal" fontWordSpacing="0" fontUnderline="0" fontWeight="50" textColor="0,0,0,255" multilineHeight="1" fontStrikeout="0" fontLetterSpacing="0" fontKerning="1" capitalization="0" fontFamily="Calibri" textOpacity="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontItalic="0" previewBkgrdColor="255,255,255,255">
+   <text-buffer bufferNoFill="1" bufferDraw="0" bufferBlendMode="0" bufferSizeUnits="MM" bufferOpacity="1" bufferSize="1" bufferColor="255,255,255,255" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferJoinStyle="128"/>
+   <text-mask maskSize="1.5" maskSizeUnits="MM" maskJoinStyle="128" maskedSymbolLayers="" maskType="0" maskOpacity="1" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskEnabled="0"/>
+   <background shapeJoinStyle="64" shapeSizeType="0" shapeBorderWidth="0" shapeBorderColor="128,128,128,255" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeOpacity="1" shapeOffsetUnit="MM" shapeRadiiY="0" shapeSizeUnit="MM" shapeBorderWidthUnit="MM" shapeRotationType="0" shapeSizeY="0" shapeSizeX="0" shapeRotation="0" shapeBlendMode="0" shapeOffsetY="0" shapeRadiiUnit="MM" shapeRadiiX="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeType="0" shapeOffsetX="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeDraw="0" shapeSVGFile="" shapeFillColor="255,255,255,255">
+    <symbol name="markerSymbol" force_rhr="0" clip_to_extent="1" alpha="1" type="marker">
+     <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
+      <prop k="angle" v="0"/>
+      <prop k="color" v="125,139,143,255"/>
+      <prop k="horizontal_anchor_point" v="1"/>
+      <prop k="joinstyle" v="bevel"/>
+      <prop k="name" v="circle"/>
+      <prop k="offset" v="0,0"/>
+      <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="outline_color" v="35,35,35,255"/>
+      <prop k="outline_style" v="solid"/>
+      <prop k="outline_width" v="0"/>
+      <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <prop k="outline_width_unit" v="MM"/>
+      <prop k="scale_method" v="diameter"/>
+      <prop k="size" v="2"/>
+      <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <prop k="size_unit" v="MM"/>
+      <prop k="vertical_anchor_point" v="1"/>
+      <data_defined_properties>
+       <Option type="Map">
+        <Option name="name" value="" type="QString"/>
+        <Option name="properties"/>
+        <Option name="type" value="collection" type="QString"/>
+       </Option>
+      </data_defined_properties>
+     </layer>
+    </symbol>
+   </background>
+   <shadow shadowColor="0,0,0,255" shadowOffsetDist="1" shadowOffsetAngle="135" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowScale="100" shadowUnder="0" shadowRadiusAlphaOnly="0" shadowDraw="0" shadowOpacity="0.7" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowBlendMode="6" shadowOffsetGlobal="1" shadowRadius="1.5" shadowOffsetUnit="MM" shadowRadiusUnit="MM"/>
+   <dd_properties>
+    <Option type="Map">
+     <Option name="name" value="" type="QString"/>
+     <Option name="properties"/>
+     <Option name="type" value="collection" type="QString"/>
+    </Option>
+   </dd_properties>
+  </text-style>
+  <strokeColor red="0" blue="0" alpha="255" green="0"/>
+  <numericFormat id="basic">
+   <Option type="Map">
+    <Option name="decimal_separator" value="" type="QChar"/>
+    <Option name="decimals" value="6" type="int"/>
+    <Option name="rounding_type" value="0" type="int"/>
+    <Option name="show_plus" value="false" type="bool"/>
+    <Option name="show_thousand_separator" value="true" type="bool"/>
+    <Option name="show_trailing_zeros" value="false" type="bool"/>
+    <Option name="thousand_separator" value="" type="QChar"/>
+   </Option>
+  </numericFormat>
+  <fillColor red="0" blue="0" alpha="255" green="0"/>
+  <fillColor2 red="255" blue="255" alpha="255" green="255"/>
+  <lineSymbol>
+   <symbol name="" force_rhr="0" clip_to_extent="1" alpha="1" type="line">
+    <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+     <prop k="align_dash_pattern" v="0"/>
+     <prop k="capstyle" v="square"/>
+     <prop k="customdash" v="5;2"/>
+     <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <prop k="customdash_unit" v="MM"/>
+     <prop k="dash_pattern_offset" v="0"/>
+     <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <prop k="dash_pattern_offset_unit" v="MM"/>
+     <prop k="draw_inside_polygon" v="0"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="line_color" v="0,0,0,255"/>
+     <prop k="line_style" v="solid"/>
+     <prop k="line_width" v="0.3"/>
+     <prop k="line_width_unit" v="MM"/>
+     <prop k="offset" v="0"/>
+     <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="ring_filter" v="0"/>
+     <prop k="tweak_dash_pattern_on_corners" v="0"/>
+     <prop k="use_custom_dash" v="0"/>
+     <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <data_defined_properties>
+      <Option type="Map">
+       <Option name="name" value="" type="QString"/>
+       <Option name="properties"/>
+       <Option name="type" value="collection" type="QString"/>
+      </Option>
+     </data_defined_properties>
+    </layer>
+   </symbol>
+  </lineSymbol>
+  <divisionLineSymbol>
+   <symbol name="" force_rhr="0" clip_to_extent="1" alpha="1" type="line">
+    <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+     <prop k="align_dash_pattern" v="0"/>
+     <prop k="capstyle" v="square"/>
+     <prop k="customdash" v="5;2"/>
+     <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <prop k="customdash_unit" v="MM"/>
+     <prop k="dash_pattern_offset" v="0"/>
+     <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <prop k="dash_pattern_offset_unit" v="MM"/>
+     <prop k="draw_inside_polygon" v="0"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="line_color" v="0,0,0,255"/>
+     <prop k="line_style" v="solid"/>
+     <prop k="line_width" v="0.3"/>
+     <prop k="line_width_unit" v="MM"/>
+     <prop k="offset" v="0"/>
+     <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="ring_filter" v="0"/>
+     <prop k="tweak_dash_pattern_on_corners" v="0"/>
+     <prop k="use_custom_dash" v="0"/>
+     <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <data_defined_properties>
+      <Option type="Map">
+       <Option name="name" value="" type="QString"/>
+       <Option name="properties"/>
+       <Option name="type" value="collection" type="QString"/>
+      </Option>
+     </data_defined_properties>
+    </layer>
+   </symbol>
+  </divisionLineSymbol>
+  <subdivisionLineSymbol>
+   <symbol name="" force_rhr="0" clip_to_extent="1" alpha="1" type="line">
+    <layer class="SimpleLine" locked="0" enabled="1" pass="0">
+     <prop k="align_dash_pattern" v="0"/>
+     <prop k="capstyle" v="square"/>
+     <prop k="customdash" v="5;2"/>
+     <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <prop k="customdash_unit" v="MM"/>
+     <prop k="dash_pattern_offset" v="0"/>
+     <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <prop k="dash_pattern_offset_unit" v="MM"/>
+     <prop k="draw_inside_polygon" v="0"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="line_color" v="0,0,0,255"/>
+     <prop k="line_style" v="solid"/>
+     <prop k="line_width" v="0.3"/>
+     <prop k="line_width_unit" v="MM"/>
+     <prop k="offset" v="0"/>
+     <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="ring_filter" v="0"/>
+     <prop k="tweak_dash_pattern_on_corners" v="0"/>
+     <prop k="use_custom_dash" v="0"/>
+     <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <data_defined_properties>
+      <Option type="Map">
+       <Option name="name" value="" type="QString"/>
+       <Option name="properties"/>
+       <Option name="type" value="collection" type="QString"/>
+      </Option>
+     </data_defined_properties>
+    </layer>
+   </symbol>
+  </subdivisionLineSymbol>
+  <fillSymbol1>
+   <symbol name="" force_rhr="0" clip_to_extent="1" alpha="1" type="fill">
+    <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+     <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <prop k="color" v="0,0,0,255"/>
+     <prop k="joinstyle" v="bevel"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="35,35,35,255"/>
+     <prop k="outline_style" v="no"/>
+     <prop k="outline_width" v="0.26"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+     <data_defined_properties>
+      <Option type="Map">
+       <Option name="name" value="" type="QString"/>
+       <Option name="properties"/>
+       <Option name="type" value="collection" type="QString"/>
+      </Option>
+     </data_defined_properties>
+    </layer>
+   </symbol>
+  </fillSymbol1>
+  <fillSymbol2>
+   <symbol name="" force_rhr="0" clip_to_extent="1" alpha="1" type="fill">
+    <layer class="SimpleFill" locked="0" enabled="1" pass="0">
+     <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="bevel"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="35,35,35,255"/>
+     <prop k="outline_style" v="no"/>
+     <prop k="outline_width" v="0.26"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+     <data_defined_properties>
+      <Option type="Map">
+       <Option name="name" value="" type="QString"/>
+       <Option name="properties"/>
+       <Option name="type" value="collection" type="QString"/>
+      </Option>
+     </data_defined_properties>
+    </layer>
+   </symbol>
+  </fillSymbol2>
+ </LayoutItem>
+ <LayoutItem zValue="1" frame="false" id="" referencePoint="0" positionLock="false" labelMargin="0,mm" frameJoinStyle="miter" excludeFromExports="0" keepLayerSet="false" isTemporal="0" templateUuid="{b0fb5c8c-8cb0-41c1-8a77-dc3fc547098b}" visibility="1" opacity="1" mapFlags="0" type="65639" uuid="{b0fb5c8c-8cb0-41c1-8a77-dc3fc547098b}" groupUuid="" blendMode="0" position="0,0,mm" background="true" itemRotation="0" drawCanvasItems="true" size="200,200,mm" followPresetName="" followPreset="false" positionOnPage="0,0,mm" mapRotation="0" outlineWidthM="0.3,mm">
+  <FrameColor red="0" blue="0" alpha="255" green="0"/>
+  <BackgroundColor red="255" blue="255" alpha="255" green="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" value="" type="QString"/>
+     <Option name="properties"/>
+     <Option name="type" value="collection" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Extent ymin="5040993.31184104550629854" xmax="500807.5585974587011151" xmin="486214.80017254938138649" ymax="5055586.07026597950607538"/>
+  <LayerSet/>
+  <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+  <labelBlockingItems/>
+  <atlasClippingSettings forceLabelsInside="0" clippingType="1" enabled="0" restrictLayers="0">
+   <layersToClip/>
+  </atlasClippingSettings>
+  <itemClippingSettings forceLabelsInside="0" clipSource="" clippingType="1" enabled="0"/>
+ </LayoutItem>
+ <customproperties>
+  <property value="png" key="atlasRasterFormat"/>
+  <property value="true" key="imageAntialias"/>
+  <property value="0" key="imageCropMarginBottom"/>
+  <property value="0" key="imageCropMarginLeft"/>
+  <property value="0" key="imageCropMarginRight"/>
+  <property value="0" key="imageCropMarginTop"/>
+  <property value="false" key="imageCropToContents"/>
+ </customproperties>
+ <Atlas filenamePattern="'output_'||@atlas_featurenumber" coverageLayer="" pageNameExpression="" enabled="0" sortFeatures="0" filterFeatures="0" hideCoverage="0"/>
+</Layout>
