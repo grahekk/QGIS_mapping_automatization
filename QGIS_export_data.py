@@ -2,7 +2,7 @@
 root = QgsProject.instance().layerTreeRoot()
 path = QgsProject.instance().readPath("./") + '/data_export/'
 
-group_list = ['Flora', 'Fauna', 'crvene knjige i popisi']
+group_list = ['Flora', 'Fauna']
 
 for i in group_list:
     print(i)

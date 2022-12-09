@@ -4,23 +4,10 @@ from qgis.core import QgsProcessing
 from qgis.core import QgsProcessingAlgorithm
 from qgis.core import QgsProcessingMultiStepFeedback
 import processing
+import pandas as pd
 
-path_osnovni = "\\\\server.intranet.dvokut-ecro.hr\\Pomoc\\24 GIS\\PRIRODA"
-path_POVS = "pagingEnabled='true' preferCoordinatesForWfsT11='false' restrictToRequestBBOX='1' srsname='EPSG:3765' typename='dzzpnpis:direktiva_o_stanistima_natura2000_hr_2019_' url='http://services.bioportal.hr/wms' version='auto'"
-path_POVS_stil = "\\\\server.intranet.dvokut-ecro.hr\\Pomoc\\24 GIS\\PRIRODA\\01_EM\\POVS.qml"
-path_POP = "pagingEnabled='true' preferCoordinatesForWfsT11='false' restrictToRequestBBOX='1' srsname='EPSG:3765' typename='dzzpnpis:direktiva_o_pticama_natura2000_hr_2019_' url='http://services.bioportal.hr/wms' version='auto'"
-path_POP_stil = "\\\\server.intranet.dvokut-ecro.hr\\Pomoc\\24 GIS\\PRIRODA\\01_EM\\POP.qml"
+paths = pd.read_csv()
 
-path_ks = path_osnovni + "\\02_KS\\A - Poligoni\\Kopno-sve"
-path_ks_2004 = path_ks + "\\KS_2004_fix.shp"
-path_ks_2016 = "\\\\server.intranet.dvokut-ecro.hr\\Pomoc\\24 GIS\\PRIRODA\\02_KS\\A - Poligoni\\Kopno-sve\\KS_POLIGONI_2016\\SVE\\Poligoni_fix.shp"
-path_ZPP_poligoni = path_osnovni + "\\03_ZP\\zasticena_podrucja.shp"
-path_ZP_tocke = path_osnovni + "\\03_ZP\\NOVO\\zasticena_podrucja_tocke.shp"
-path_MAB = path_osnovni + "\\04_MAB\\MAB.shp"
-
-zahvat = iface.activeLayer()
-
-# EM Natura 2000
 #POVS
 vlayer = QgsVectorLayer(path_POVS, "Područje očuvanja značajno za vrste i stanišne tipove (POVS)", "WFS")
 vlayer.loadNamedStyle(path_POVS_stil)
@@ -51,3 +38,5 @@ QgsProject.instance().addMapLayer(vlayer)
 # MAB
 vlayer = QgsVectorLayer(path_MAB, "Prekogranični rezervat biosfere", "ogr")
 QgsProject.instance().addMapLayer(vlayer)
+
+print("Nature layers loaded!")

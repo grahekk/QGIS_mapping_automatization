@@ -3,3 +3,10 @@ venv
 *.xlsx
 *.csv
 *.pdf
+*.png
+*.jpg
+*.jpeg
+*.qgs
+*.json
+*.code-workspace
+*.pyc

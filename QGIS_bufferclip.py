@@ -1,11 +1,17 @@
 from PyQt5.QtCore import QVariant
+from qgis.core import (QgsVectorLayer)
+from qgis.core import QgsProcessing
+from qgis.core import QgsProcessingAlgorithm
+from qgis.core import QgsProcessingMultiStepFeedback
+import processing
 
 map_year = "2016"
 export_as_excel_shp = True
+buffer_dist = 50
 
 zahvat = iface.activeLayer()
-path_ks_2016 = "\\\\server.intranet.dvokut-ecro.hr\\Pomoc\\24 GIS\\PRIRODA\\02_KS\\A - Poligoni\\Kopno-sve\\KS_POLIGONI_2016\\SVE\\Poligoni_fix.shp"
-path_ks_2004 = "\\\\server.intranet.dvokut-ecro.hr\\Pomoc\\24 GIS\\PRIRODA\\02_KS\\A - Poligoni\\Kopno-sve\\KS_2004_fix.shp"
+path_ks_2016 = r"\\\\server.intranet.dvokut-ecro.hr\\Pomoc\\24 GIS\\PRIRODA\\02_KS\\A - Poligoni\\Kopno-sve\\KS_POLIGONI_2016\\SVE\\Poligoni_fix.shp"
+path_ks_2004 = r"\\\\server.intranet.dvokut-ecro.hr\\Pomoc\\24 GIS\\PRIRODA\\02_KS\\A - Poligoni\\Kopno-sve\\KS_2004_fix.shp"
 
 if map_year == "2016":
     path = path_ks_2016
@@ -19,14 +25,14 @@ QgsProject.instance().addMapLayer(vlayer)
 # Buffer
 alg_params = {
     'DISSOLVE': True,
-    'DISTANCE': 10,
+    'DISTANCE': buffer_dist,
     'END_CAP_STYLE': 0,
     'INPUT': zahvat,
     'JOIN_STYLE': 0,
     'MITER_LIMIT': 2,
     'SEGMENTS': 5,
     'OUTPUT': QgsProcessing.TEMPORARY_OUTPUT
-        }
+    }
 bafer = processing.run('native:buffer', alg_params)['OUTPUT']
 QgsProject.instance().addMapLayer(bafer)
 
@@ -37,8 +43,11 @@ alg_params = {
     'OUTPUT': QgsProcessing.TEMPORARY_OUTPUT
         }
 clip = processing.run('native:clip', alg_params)['OUTPUT']
-clip.loadNamedStyle('\\\\server.intranet.dvokut-ecro.hr\\Pomoc\\24 GIS\\PRIRODA\\02_KS\\A - Poligoni\\Kopno-sve\\KS_POLIGONI_2016\\QGis_symbology\\Poligoni_sluzbena.qml')
-clip.setName('Karta staništa')
+if map_year == "2016":
+    clip.loadNamedStyle('\\\\server.intranet.dvokut-ecro.hr\\Pomoc\\24 GIS\\PRIRODA\\02_KS\\A - Poligoni\\Kopno-sve\\KS_POLIGONI_2016\\QGis_symbology\\Poligoni_sluzbena.qml')
+
+name = "Karta staništa " + map_year
+clip.setName(name)
 QgsProject.instance().addMapLayer(clip)
 
 #adding area field
@@ -46,7 +55,8 @@ provider = clip.dataProvider()
 area_field = QgsField("Area", QVariant.Double)
 provider.addAttributes([area_field])
 #also, deleting the unnecessarry field
-clip.dataProvider().deleteAttributes([18])
+if map_year == "2016":
+    clip.dataProvider().deleteAttributes([18])
 clip.updateFields()
 
 #calculating area

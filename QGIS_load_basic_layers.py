@@ -1,5 +1,7 @@
 import os
-import qgis.core
+from qgis.core import QgsCoordinateReferenceSystem
+from qgis.core import QgsProject
+from qgis.core import QgsRasterLayer
 
 #set the project scrs
 my_crs=QgsCoordinateReferenceSystem(3765)
