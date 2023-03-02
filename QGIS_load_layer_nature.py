@@ -6,7 +6,7 @@ from qgis.core import QgsProcessingMultiStepFeedback
 import processing
 import pandas as pd
 
-paths = pd.read_csv()
+#paths = pd.read_csv()
 
 #POVS
 vlayer = QgsVectorLayer(path_POVS, "Područje očuvanja značajno za vrste i stanišne tipove (POVS)", "WFS")

@@ -21,21 +21,32 @@ def map_exporter(map_name, main_layer_name):
     if map_name == "KS":
         RECTSCALE = 1.1
         mapping_layer = ["Karta staništa 2016"]
+        template_name = "KS"
     if map_name == "EM":
         RECTSCALE = 5
         mapping_layer = ["Područje očuvanja značajno za vrste i stanišne tipove (POVS)", "Područje očuvanja značajno za ptice (POP)"]
+        template_name = "EM"
     if map_name == "ZPP":
         RECTSCALE = 5
         mapping_layer = ["zasticena podrucja prirode poligoni"]
+        template_name = "ZPP"
     if map_name == "DOF":
         map_name = "EM"
         RECTSCALE = 1.2
+        tempalte_name = "EM"
+    if map_name == "Group":
+        map_name = "Group"
+        RECTSCALE = 1.2
+        template_name = "EM"
+        group_name = "Range 1x1"
+        mapping_layer = [main_layer_name]
+
 
     to_remove = manager.layoutByName(map_name)
     manager.removeLayout(to_remove)
 
     layout = QgsPrintLayout(project)
-    template_file = open('C:\\Users\\ngersak\\Documents\\GitHub\\QGIS_mapping_automatization\\' + map_name + '.qpt')
+    template_file = open('C:\\Users\\ngersak\\Documents\\GitHub\\QGIS_mapping_automatization\\' + template_name + '.qpt')
     template_content = template_file.read()
     template_file.close()
     document = QDomDocument()
@@ -85,7 +96,7 @@ def map_exporter(map_name, main_layer_name):
             print(i.textOnSymbolLabel())
             label_old = label
             nodes2.append(i)
-
+    
     legend.refresh()
 
     path = QgsProject.instance().readPath("./")
@@ -96,4 +107,15 @@ def map_exporter(map_name, main_layer_name):
 
     print(map_name+" layout exported")
 
-map_exporter("KS", "Zahvat_relevantni")
+#map_exporter("KS", "Zahvat_relevantni")
+
+#group export
+root = QgsProject.instance().layerTreeRoot()
+mygroup = root.findGroup("Range 1x1")
+layer_list= mygroup.findLayers()
+layer_list = [layer.name() for layer in mygroup.children()]
+print(layer_list)
+
+for i in layer_list:
+    print(i)
+    map_exporter("Group", i)

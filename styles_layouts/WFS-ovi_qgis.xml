@@ -1,0 +1,11 @@
+<!DOCTYPE connections>
+<qgsWFSConnections version="1.1">
+    <wfs name="Bioportal" maxnumfeatures="" password="" url="http://services.bioportal.hr/wms" username="" version="auto" pagesize="" ignoreAxisOrientation="false" invertAxisOrientation="false" pagingenabled="true"/>
+    <wfs name="Drzavne sume RH" maxnumfeatures="" password="" url="http://gis.hrsume.hr/hrsume/wms?layers=odj" username="" version="auto" pagesize="" ignoreAxisOrientation="false" invertAxisOrientation="false" pagingenabled="true"/>
+    <wfs name="EMODnet_bat" maxnumfeatures="" password="" url="https://ows.emodnet-bathymetry.eu/wfs?request=getcapabilities" username="" version="auto" pagesize="" ignoreAxisOrientation="false" invertAxisOrientation="false" pagingenabled="true"/>
+    <wfs name="Katastar" maxnumfeatures="" password="" url="https://oss.uredjenazemlja.hr/OssWebServices/inspireService/wms?version=1.3.0" username="" version="auto" pagesize="" ignoreAxisOrientation="false" invertAxisOrientation="false" pagingenabled="true"/>
+    <wfs name="Katastar - novi" maxnumfeatures="" password="" url="https://oss.uredjenazemlja.hr/OssWebServices/inspireService/wfs?version=2.0.0" username="" version="2.0.0" pagesize="500" ignoreAxisOrientation="false" invertAxisOrientation="false" pagingenabled="true"/>
+    <wfs name="Privatne sume RH" maxnumfeatures="" password="" url="http://gis.hrsume.hr/privsume/wfs?layers=priv_gj" username="" version="auto" pagesize="" ignoreAxisOrientation="false" invertAxisOrientation="false" pagingenabled="true"/>
+    <wfs name="kakvoca voda" maxnumfeatures="" password="" url="http://servisi.azo.hr/voda/wfs" username="" version="auto" pagesize="" ignoreAxisOrientation="false" invertAxisOrientation="false" pagingenabled="true"/>
+    <wfs name="vode_nipp" maxnumfeatures="" password="" url="http://registri.nipp.hr/subjekti/view_xml.php?identifier=0038" username="" version="auto" pagesize="" ignoreAxisOrientation="false" invertAxisOrientation="false" pagingenabled="true"/>
+</qgsWFSConnections>

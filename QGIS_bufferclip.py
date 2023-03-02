@@ -6,12 +6,12 @@ from qgis.core import QgsProcessingMultiStepFeedback
 import processing
 
 map_year = "2016"
-export_as_excel_shp = True
+export_as_excel_shp = False
 buffer_dist = 50
 
 zahvat = iface.activeLayer()
-path_ks_2016 = r"\\\\server.intranet.dvokut-ecro.hr\\Pomoc\\24 GIS\\PRIRODA\\02_KS\\A - Poligoni\\Kopno-sve\\KS_POLIGONI_2016\\SVE\\Poligoni_fix.shp"
 path_ks_2004 = r"\\\\server.intranet.dvokut-ecro.hr\\Pomoc\\24 GIS\\PRIRODA\\02_KS\\A - Poligoni\\Kopno-sve\\KS_2004_fix.shp"
+path_ks_2016 = r"\\server.intranet.dvokut-ecro.hr\Pomoc\24 GIS\PRIRODA\02_KS\A - Poligoni\Kopno-sve\KS_POLIGONI_2016\SVE\Poligoni_fix.shp"
 
 if map_year == "2016":
     path = path_ks_2016
