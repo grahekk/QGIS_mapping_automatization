@@ -6,7 +6,7 @@ from qgis.core import QgsProcessingMultiStepFeedback
 import processing
 
 map_year = "2016"
-export_as_excel_shp = False
+export_as_excel_shp = True
 buffer_dist = 50
 
 zahvat = iface.activeLayer()

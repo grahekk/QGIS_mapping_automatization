@@ -46,7 +46,7 @@ def map_exporter(map_name, main_layer_name):
     manager.removeLayout(to_remove)
 
     layout = QgsPrintLayout(project)
-    template_file = open('C:\\Users\\ngersak\\Documents\\GitHub\\QGIS_mapping_automatization\\' + template_name + '.qpt')
+    template_file = open('C:\\Users\\ngersak\\Documents\\GitHub\\QGIS_mapping_automatization\\styles_layouts\\' + template_name + '.qpt')
     template_content = template_file.read()
     template_file.close()
     document = QDomDocument()
@@ -107,7 +107,7 @@ def map_exporter(map_name, main_layer_name):
 
     print(map_name+" layout exported")
 
-#map_exporter("KS", "Zahvat_relevantni")
+map_exporter("ZPP", "Cjevovodi sustava javne odvodnje")
 
 #group export
 root = QgsProject.instance().layerTreeRoot()
