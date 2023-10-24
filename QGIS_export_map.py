@@ -1,7 +1,7 @@
 import re
 from qgis.PyQt.QtXml import QDomDocument
 
-project = QgsProject.instance()         
+project = QgsProject.instance()
 manager = project.layoutManager()
 
 def map_exporter(map_name, main_layer_name):
